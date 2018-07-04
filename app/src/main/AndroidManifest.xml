@@ -13,10 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -25,6 +24,13 @@
             android:label="@string/title_activity_test_camera_permission"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".videorecord.RecordVideoActivity" />
+        <activity android:name=".videorecord.TestPackTimerActivity" />
+        <activity android:name=".videolist.VideolistActivity" />
+        <activity
+            android:name=".videolist.VideoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".videolist.Video2Activity"></activity>
     </application>
 
 </manifest>
